@@ -135,7 +135,7 @@ const ProductForm = ({ product }) => {
       >
         Add to Cart
       </button>
-      {!available && <p>This product not available online. To place order call (818) 923-2629 or email info@kaliwooddesigns.com</p>}
+      {!available && <p style={{ color: `teal`, fontWeight:`bold` }}>Currently out of stock. To place order call (818) 564-7336 or email info@kaliwooddesigns.com</p>}
     </>
   )
 }
