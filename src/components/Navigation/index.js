@@ -1,11 +1,15 @@
 import React, { useContext } from 'react'
 import reduce from 'lodash/reduce'
 import PropTypes from 'prop-types'
+import logo from '../images/kw-logo-sm.png'
+import logoXxs from '../images/kw-logo-xxs.png'
 
 import StoreContext from '~/context/StoreContext'
 import {
 	CartCounter, 
 	Container,
+	MenuLogo,
+	MenuLogoXxs,
 	MenuLink,
 	Wrapper
 } from './styles'
@@ -23,9 +27,14 @@ const Navigation = ({ siteTitle }) => {
 	return(
 		<Wrapper>
 			<Container>
-				<MenuLink to='/'>
-					{siteTitle}
-				</MenuLink>
+			
+				<MenuLogo to='/'>
+				<img src={logo} alt="" />
+					{/* {siteTitle} */}
+				</MenuLogo>
+				<MenuLogoXxs to='/'>
+					<img src={logoXxs} alt="" />
+				</MenuLogoXxs>
 				<MenuLink to='/cart'>
 					{hasItems &&
 						<CartCounter>

@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { breakpoints } from '../../utils/styles'
 
 export const Wrapper = styled.div`
-  background: rebeccapurple;
+  background: white;
   margin-bottom: 1.45rem;
 `
 
@@ -18,7 +18,7 @@ export const Container = styled.div`
 `
 
 export const MenuLink = styled(Link)`
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
@@ -26,6 +26,22 @@ export const MenuLink = styled(Link)`
   @media (max-width: ${breakpoints.s}px){
     font-size: 1.4rem
   }
+`
+export const MenuLogo = styled(Link)`
+  
+@media (max-width: ${breakpoints.s}px){
+    display: none
+  }
+`
+export const MenuLogoXxs = styled(Link)`
+  
+@media (max-width: ${breakpoints.xxs}px){
+  visibility: visible;
+  }
+
+  @media (min-width: ${breakpoints.s}px){
+    visibility: hidden;
+    }
 `
 
 export const CartCounter = styled.span`

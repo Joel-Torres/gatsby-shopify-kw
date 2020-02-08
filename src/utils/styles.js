@@ -4,6 +4,8 @@ import styled from '@emotion/styled'
 import { Global, css } from "@emotion/core"
 
 export const breakpoints = {
+  xxs:399,
+  xs: 400,
   s: 576,
   m: 768,
   l: 992,
