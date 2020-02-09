@@ -95,7 +95,7 @@ const ProductForm = ({ product }) => {
 
   return (
     <>
-      <h3>{price}</h3>
+      {/* <h3>{price}</h3>
       {options.map(({ id, name, values }, index) => (
         <React.Fragment key={id}>
           <label htmlFor={name}>{name} </label>
@@ -116,7 +116,7 @@ const ProductForm = ({ product }) => {
           </select>
           <br />
         </React.Fragment>
-      ))}
+      ))} */}
       <label htmlFor="quantity">Quantity </label>
       <input
         type="number"

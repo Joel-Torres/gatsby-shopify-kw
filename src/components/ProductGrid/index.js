@@ -67,7 +67,7 @@ const ProductGrid = () => {
                 />)}
             </Link>
             <Title>{title}</Title>
-            <PriceTag>{getPrice(firstVariant.price)}</PriceTag>
+            {/* <PriceTag>{getPrice(firstVariant.price)}</PriceTag> */}
           </Product>
         ))
         : <p>No Products found!</p>}
