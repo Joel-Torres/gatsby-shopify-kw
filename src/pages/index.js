@@ -10,7 +10,7 @@ const IndexPage = () => (
     {/* <h1>Kaliwood Designs</h1>
     <p>Welcome to Kaliwood Designs built for you</p> */}
     <ProductGrid />
-    <Link to="/">Go to home..</Link>
+    <Link to="/">Go to home...</Link>
   </>
 )
 
