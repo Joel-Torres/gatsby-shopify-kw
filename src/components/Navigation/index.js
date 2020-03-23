@@ -44,6 +44,7 @@ const Navigation = ({ siteTitle }) => {
 					Cart 🛍
 				</MenuLink>
 			</Container>
+			<hr></hr>
 		</Wrapper>
 	)
 }
