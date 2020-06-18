@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p>Welcome to Kaliwood Designs built for you</p> */}
     <IntroHeader />
     <ProductGrid />
-    <Link to="/">Go to home...</Link>
+    <Link to="/">Go to home..</Link>
   </>
 )
 
